@@ -11,11 +11,11 @@ If the condition is then met, the algorithm from then on is pretty straightforwa
 It also must be noted that the program will not calculate an end result if it doesn't exist, which can happen in any of these conditions:  
 
     1. The amount to look for is not a multiple of the GCD of the two jugs.  
-    2. The amount to look for is bigger than either of the jugs.  
+    2. The amount to look for is bigger than either of the jugs (the program hinges on the fact that the amount should be reached with only one jug).  
     3. Either of the jugs is less than or equal to zero.  
     4. The amount to look for is less than or equal to zero.  
 
-In any of these cases, no result will be thrown and the program will just state that there is no solution.
+In any of these cases, no result will be thrown and the program will just state that there is no solution.   
 
 #### Test Cases  
 
