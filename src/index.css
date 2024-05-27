@@ -1,0 +1,55 @@
+:root {
+  --primary-bg: hsl(236, 15%, 22%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  letter-spacing: .68px;
+}
+
+.flex {
+  display: flex;
+  gap: var(--gap, 1rem);
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.grid {
+  display: grid;
+  gap: var(--gap, 1rem);
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  min-height: 100svh;
+  background-color: #f8f8f8;
+  color: black;
+}
+
+.heading {
+  margin-block: 0.5rem;
+}
+
+.form {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+ol {
+  margin-block: 0.5rem;
+
+  >li {
+    margin-block: 0.5rem;
+  }
+}

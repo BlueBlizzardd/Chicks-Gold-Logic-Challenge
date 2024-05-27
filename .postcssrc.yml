@@ -1,0 +1,6 @@
+plugins:
+  postcss-preset-env:
+    features:
+      nesting-rules:
+        - auto
+        - edition: 2024-02
