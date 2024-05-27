@@ -10,7 +10,7 @@ export default function Input({ id, name, placeholder = 'Please input a number' 
     return (
         <>
             <label className={`${input.label}`} htmlFor={id}>{name}</label>
-            <input className={`${input.box}`} id={id} name={name} type="number" min='0' max='1000' placeholder={placeholder} />
+            <input className={`${input.box}`} id={id} name={name} type="number" min='1' max='1000' placeholder={placeholder} />
         </>
     )
 }
