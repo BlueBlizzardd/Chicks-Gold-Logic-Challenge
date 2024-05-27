@@ -10,7 +10,7 @@ function pour(pourer: number, receiver: number, amount: number) {
     let to = 0;
 
     // Initialize count of steps required needed to fill "from" Jug
-    const finalSteps: Step[] = [[0, 0], [from, to]];
+    const finalSteps: Step[] = [[from, to]];
 
     // Break the loop when either of the two jugs has Z amount of water
     while (from !== amount && to !== amount) {
